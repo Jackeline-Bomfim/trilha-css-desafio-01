@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ /* Variável de cor */
+:root {
+    --padra-azul: #33A8DB;    
+ }
+
+ /* Variável de fonte */
+ :root {
+    --font-principal: 'Raleway', sans-serif;
+ }
+
+body {
+    max-width: 100%;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+body .banner {
+    height: 605px;
+    background-image: linear-gradient(rgba(0,0,0,0.57), black ), url("../images/banner.png");
+    background-repeat: no-repeat;
+    text-align: center;
+    border-bottom: solid 2px var(--padra-azul);
+}
+
+.banner-content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    background: rgba(0, 0, 0, 0.2) ;
+    border-radius: 50%;
+}
+
+.banner div h1 {
+    font-family: var(--font-principal);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 47px;
+    color: var(--padra-azul);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.banner div p {
+    max-width: 520px;
+    margin: 20px auto;
+    font-size: 20px;
+    line-height: 23px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+button {
+    padding: 20px 40px;
+    border: solid 2px var(--padra-azul);
+    color: var(--padra-azul);
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    font-family: var(--font-principal);
+    font-size: 16px;
+    line-height: 19px;
+    font-style: 900;
+    letter-spacing: 0.21em;
+    margin: 30px auto;
+}
+
+main, footer {
+    background-color: rgb(0, 0, 0);
+    margin-top: 0px;
+}
+
+h2 {
+    font-family: var(--font-principal);
+    color: var(--padra-azul);
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0.19em;
+    text-align: center;
+    padding: 20px;
+}
+
+#course-content p {
+    width: 792px;
+    font-family: var(--font-principal);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+
