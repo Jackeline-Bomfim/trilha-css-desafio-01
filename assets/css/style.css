@@ -11,6 +11,7 @@
 
 body {
     max-width: 100%;
+    background-color: black;
 }
 
 p {
@@ -21,7 +22,7 @@ p {
 
 body .banner {
     height: 605px;
-    background-image: linear-gradient(rgba(0,0,0,0.57), black ), url("../images/banner.png");
+    background-image: url("../images/banner.png");
     background-repeat: no-repeat;
     text-align: center;
     border-bottom: solid 2px var(--padra-azul);
@@ -32,8 +33,13 @@ body .banner {
     margin-left: auto;
     margin-right: auto;
     padding: 25px;
-    background: rgba(0, 0, 0, 0.2) ;
+    background-color: rgba(31, 30, 30, 0.356);
     border-radius: 50%;
+}
+
+#course-content {
+    background-color: black;
+    padding-bottom: 80px;
 }
 
 .banner div h1 {
@@ -71,8 +77,7 @@ button {
 }
 
 main, footer {
-    background-color: rgb(0, 0, 0);
-    margin-top: 0px;
+    margin-top: 80px;
 }
 
 h2 {
@@ -95,5 +100,84 @@ h2 {
     text-align: center;
     margin: 20px auto;
 }
+
+.module span {
+    color: var(--padra-azul);
+    font-family: var(--font-principal);    
+}
+
+.module {
+    color: #fff;
+    font-family: var(--font-principal);
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+    border: solid 1px var(--padra-azul);
+    border-radius: 30px;
+    max-width: 535px;
+    margin: 15px auto;
+    background-color: rgba(173, 162, 162, 0.178);
+}
+
+#transform-world {
+    height: 140px;
+    background-size: cover;
+    background-image: url("../images/woman-code.png");
+    background-attachment: fixed;
+    border-top: solid 1px var(--padra-azul);
+    border-bottom: solid 1px var(--padra-azul);
+    padding: 200px;
+}
+
+#transform-world p {
+    font-family: var(--font-principal);
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 47px;
+    position: absolute;
+    max-width: 300px;
+    text-align: left;
+    text-shadow: 3px 2px 0px var(--padra-azul);
+}
+
+#professional-challenges h2 {
+    max-width: 700px;
+    margin: 30px auto;
+}
+
+#professional-challenges img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#professional-challenges p {
+    max-width: 700px;
+    font-family: var(--font-principal);
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+footer {
+    border-top: solid 1px var(--padra-azul);
+    padding: 30px;
+}
+
+footer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
 
 
